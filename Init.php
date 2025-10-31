@@ -1,15 +1,20 @@
 <?php
+
 namespace FacturaScripts\Plugins\Swift;
 
+use FacturaScripts\Core\Template\InitClass;
 
+class Init extends InitClass {
 
-class Init extends \FacturaScripts\Core\Base\InitClass
-{
-    public function init() {
+    public function init(): void {
         /// No need initialization task
     }
 
-    public function update() {
+    public function update(): void {
         /// No need update task
+    }
+
+    public function uninstall(): void {
+        
     }
 }
